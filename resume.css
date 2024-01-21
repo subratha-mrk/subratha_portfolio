@@ -39,10 +39,14 @@ h1{
 .profile{
     line-height: 1.5;
     font-size: 18px;
+    text-indent: 20px;
 }
 .date-place{
     font-size: 18px;
     display: inline;
+}
+.declare, .career, .education>dl{
+    text-indent: 20px;
 }
 .image{
     float: right;
