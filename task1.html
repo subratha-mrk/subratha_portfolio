@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX Design</title>
+    <script src="https://kit.fontawesome.com/672c12c118.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .head {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        body {
+            background-color: rgb(215, 212, 212);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .box {
+            background-color: #fff;
+            padding: 30px;
+            border-top: 20px solid;
+            border-radius: 20px;
+            text-align: left;
+        }
+
+        .run {
+            border-color: rgb(252, 71, 165);
+        }
+        .run>i{
+            
+            background-color: rgb(252, 71, 165);
+            
+        }
+
+        .pai {
+            border-color: rgb(120, 226, 253);
+        }
+        .pai>i{
+            
+            background-color: rgb(120, 226, 253);
+            
+        }
+        .dnp {
+            border-color: green;
+        }
+        .dnp>i{
+            
+            background-color: green;
+            
+        }
+
+        .prod {
+            border-color: yellow;
+        }
+        .prod>i{
+            
+            background-color: yellow;
+            
+        }
+
+        .tasks {
+            border-color: violet;
+        }
+        .tasks>i{
+            background-color: violet;
+        }
+        .supp {
+            border-color: rgb(225, 49, 107);
+        }
+        .supp>i{
+            background-color:rgb(225, 49, 107) ;
+        }
+        i{
+            font-size: 35px;
+            padding: 10px;
+            color: #fff;
+        }
+
+        p {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            width: 80%;
+            max-width: 300px;
+            height: 60px;
+            background: rgb(164, 92, 92);
+            color: white;
+            border-radius: 10px;
+            font-size: 20px;
+            margin-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .fa-solid{
+            border-radius: 50px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="head">We work in dedicated project <br>teams, UX design</h1>
+        <div class="grid">
+            <div class="box run">
+                <i class="fa-solid fa-magnifying-glass"></i><br><br>
+                <h3>Research user needs</h3><br>
+                <p>Discover pain points and understand user behavior</p>
+            </div>
+            <div class="box pai">
+                <i class="fa-solid fa-diagram-project"></i><br><br>
+                <h3>Prototype and idea</h3><br>
+                <p>Validate ideas with an interactive prototype of your vision</p>
+            </div>
+            <div class="box dnp">
+                <i class="fa-solid fa-object-group"></i><br><br>
+                <h3>Design a new product</h3><br>
+                <p>Launch an MVP with a best in class user experience</p>
+            </div>
+            <div class="box prod">
+                <i class="fa-solid fa-star"></i><br><br>
+                <h3>Improve a product</h3><br>
+                <p>Become a category leader using UI/UX designs</p>
+            </div>
+            <div class="box tasks">
+                <i class="fa-solid fa-building-user"></i><br><br>
+                <h3>Build marketing plan</h3><br>
+                <p>Latest way to manage your projects and task</p>
+            </div>
+            <div class="box supp">
+                <i class="fa-solid fa-hand-holding-dollar"></i><br><br>
+                <h3>24/7 support</h3><br>
+                <p>Our support teams always be there for you by 24/7 </p>
+            </div>
+        </div>
+        <button class="btn"><b>CONTACT US</b></button>
+    </div>
+</body>
+
+</html>
+
