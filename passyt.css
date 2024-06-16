@@ -1,0 +1,78 @@
+body{
+    background-color: lightsteelblue;
+    margin: 0;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    background-color: lightgreen;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-content: center;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+}
+
+label{
+    font-weight: bold;
+}
+
+.range_number{
+    display: flex;
+    align-items: center;
+}
+
+#len_num{
+    width: 2rem;
+}
+
+.pass_box{
+    background-color: lightsteelblue;
+    color: #000;
+    padding: 1rem;
+    border: 1px solid red;
+    /* height: 1rem; */
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+    border-radius: .3rem;
+}
+
+.btn{
+    grid-column: span 2;
+    background-color: lightsteelblue;
+    color: #000;
+    border-radius: 2px solid white;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.btn:hover{
+    background-color: #fff;
+}
+

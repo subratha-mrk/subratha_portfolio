@@ -1,0 +1,285 @@
+<!--Responsive code-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/672c12c118.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container-subi {
+            margin: 20px;
+            padding: 30px;
+        }
+
+        .grid-subi {
+            display: grid;
+            justify-content: space-evenly;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            grid-template-columns: 200px 200px 200px 200px 200px;
+            grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px;
+            gap: 15px;
+        }
+
+        .grid-subi a {
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .admission,
+        .payment-gateway,
+        .nba-status,
+        .ugc-approval,
+        .management,
+        .staff-login,
+        .transport,
+        .core-values,
+        .anti-ragging,
+        .iip-cell,
+        .wec,
+        .control-exam,
+        .events,
+        .academic-calender,
+        .exam-cell,
+        .mandatory-disclosure,
+        .student-satisfy,
+        .pta,
+        .intranet {
+            padding-top: 20px;
+            border: 2px dashed rgb(1, 182, 1);
+            color: black;
+            border-radius: 10px;
+        }
+
+        .admission a,
+        .payment-gateway a,
+        .nba-status a,
+        .ugc-approval a,
+        .management a,
+        .staff-login a,
+        .transport a,
+        .core-values a,
+        .anti-ragging a,
+        .iip-cell a,
+        .wec a,
+        .control-exam a,
+        .events a,
+        .academic-calender a,
+        .exam-cell a,
+        .mandatory-disclosure a,
+        .student-satisfy a,
+        .pta a,
+        .intranet a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .press-media,
+        .placements,
+        .aicte-approval,
+        .nisp,
+        .student-login,
+        .library,
+        .rank-holders,
+        .code-conduct,
+        .irg,
+        .posh,
+        .grievances,
+        .sops,
+        .circular,
+        .college-annual-report,
+        .nirf,
+        .learn-system,
+        .policy,
+        .stipend,
+        .mou {
+            border: 2px dashed orange;
+            padding-top: 20px;
+            color: black;
+            border-radius: 10px;
+        }
+
+        .press-media a,
+        .placements a,
+        .aicte-approval a,
+        .nisp a,
+        .student-login a,
+        .library a,
+        .rank-holders a,
+        .code-conduct a,
+        .irg a,
+        .posh a,
+        .grievances a,
+        .sops a,
+        .circular a,
+        .college-annual-report a,
+        .nirf a,
+        .learn-system a,
+        .policy a,
+        .stipend a,
+        .mou a {
+            color: black;
+            text-decoration: none;
+        }
+
+        @media screen and (max-width: 768px) {
+            .grid-subi {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .fa-solid-subi>img {
+            width: 48px;
+            height: 48px;
+        }
+
+        .irgs>abbr,
+        .nba>abbr,
+        .aicte>abbr,
+        .ugc>abbr,
+        .nisp-abbr>abbr,
+        .iipc>abbr,
+        .posh-icc>abbr,
+        .sop>abbr,
+        .nirf-abbr>abbr {
+            text-decoration: none;
+        }
+
+        .grid-subi > h4 {
+            padding-left: 20px;
+            padding-right: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-subi">
+        <div class="grid-subi">
+            <!-- Your h4 elements go here -->
+            <h4 class="admission"><i class="fa-solid-subi"><img src="adms.ico"></i><br><br><a href="#">ADMISSIONS</a>
+            </h4>
+
+            <h4 class="press-media"><i class="fa-solid-subi"><img src="press.ico"></i><br><br><a href="#">PRESS & MEDIA
+                    NEWS</a></h4>
+
+            <h4 class="payment-gateway"><i class="fa-solid-subi"><img src="pay.ico"></i><br><br><a href="#">PAYMENT
+                    GATEWAY</a></h4>
+
+            <h4 class="placements"><i class="fa-solid-subi"><img src="placement.ico"></i><br><br><a
+                    href="">PLACEMENTS</a></h4>
+
+            <h4 class="nba-status"><i class="fa-solid-subi"><img src="nba24icon.ico"></i><br><br><a href=""
+                    class="nba"><abbr title="National Board of Accreditation">NBA STATUS</abbr></a></h4>
+
+            <h4 class="aicte-approval"><a href=""><i class="fa-solid-subi"><img src="aicte1.ico"></i><br><br><a href=""
+                        class="aicte"><abbr title="All Indian Council for Technical Education">AICTE APPROVAL
+                            LETTER</abbr></a></h4>
+
+            <h4 class="ugc-approval"><i class="fa-solid-subi"><img src="ugc.ico"></i><br><br><a href=""
+                    class="ugc"><abbr title="University Grants Commission">UGC APPROVAL LETTER</abbr></a></h4>
+
+            <h4 class="nisp"><i class="fa-solid-subi"><img src="nisp.ico"></i><br><br><a href="" class="nisp-abbr"><abbr
+                        title="National Innovation and Startup Policy">NISP</abbr></a></h4>
+
+            <h4 class="management"><i class="fa-solid-subi"><img src="cms.ico"></i><br><br><a href="">THE MANAGEMENT</a>
+            </h4>
+
+            <h4 class="student-login"><i class="fa-solid-subi"><img src="log-in-student.ico"></i><br><br><a
+                    href="">STUDENTS LOGIN</a></h4>
+
+            <h4 class="staff-login"><i class="fa-solid-subi"><img src="staff_log.ico"></i><br><br><a href="">STAFF
+                    LOGIN</a></h4>
+
+            <h4 class="library"><i class="fa-solid-subi"><img src="lib1.ico"></i><br><br><a href="">LIBRARY</a></h4>
+
+            <h4 class="transport"><i class="fa-solid-subi"><img src="kln-clg-of-eng-transport-1058.ico"></i><br><br><a
+                    href="">TRANSPORT SCHEDULE</a></h4>
+
+            <h4 class="rank-holders"><i class="fa-solid-subi"><img src="Ranking.ico"></i><br><br><a href="">RANK
+                    HOLDERS</a></h4>
+
+            <h4 class="core-values"><i class="fa-solid-subi"><img src="corevalues.ico"></i><br><br><a href="">CORE
+                    VALUES - KLNCE</a></h4>
+
+            <h4 class="code-conduct"><i class="fa-solid-subi"><img src="codeofconduct.ico"></i><br><br><a href="">CODE
+                    OF CONDUCT</a></h4>
+
+            <h4 class="anti-ragging"><i class="fa-solid-subi"><img src="anti_ragg.ico"></i><br><br><a href="">ANTI
+                    RAGGING</a></h4>
+
+            <h4 class="irg"><i class="fa-solid-subi"><img src="irg.ico"></i><br><br><a href="" class="irgs"><abbr
+                        title="INTERNATIONAL RESOURCE GENERATION">IRG</abbr></a></h4>
+
+            <h4 class="iip-cell"><i class="fa-solid-subi"><img src="iipcell.ico"></i><br><br><a href=""
+                    class="iipc"><abbr title="
+                Industry Institute Partnership Cell ">IIP CELL</abbr></a>
+            </h4>
+
+            <h4 class="posh"><i class="fa-solid-subi"><img src="posh.ico"></i><br><br><a href="" class="posh-icc"><abbr
+                        title="Prevention of Sexual Harassment Committee">POSH(ICC) CELL</abbr></a></h4>
+
+            <h4 class="wec"><i class="fa-solid-subi"><img src="wec.ico"></i><br><br><a href="">WOMEN EMPOWERMENT
+                    CELL</a></h4>
+
+            <h4 class="grievances"><i class="fa-solid-subi"><img src="grieve.ico"></i><br><br><br><a
+                    href="">GRIEVANCES</a></h4>
+
+            <h4 class="control-exam"><i class="fa-solid-subi"><img src="control-exam.ico"></i><br><br><a
+                    href="">CONTROLLER OF EXAMINATIONS</a></h4>
+
+            <h4 class="sops"><i class="fa-solid-subi"><img src="sops.ico"></i><br><br><a href="" class="sop"><abbr
+                        title="Standard Operating Procedures">SOPs</abbr></a></h4>
+
+            <h4 class="events"><i class="fa-solid-subi"><img src="event.ico"></i><br><br><a href="">EVENTS</a></h4>
+
+            <h4 class="circular"><i class="fa-solid-subi"><img src="formss.png"></i><br><br><a href="">CIRCULAR</a></h4>
+
+            <h4 class="academic-calender"><i class="fa-solid-subi"><img src="calendar.ico"></i><br><br><a
+                    href="">ACADEMIC CALENDAR</a></h4>
+
+            <h4 class="college-annual-report"><i class="fa-solid-subi"><img src="annual.ico"></i><br><br><a
+                    href="">COLLEGE ANNUAL REPORT</a></h4>
+
+            <h4 class="exam-cell"><i class="fa-solid-subi"><img src="examcells.ico"></i><br><br><a href="">EXAM
+                    MANAGEMENT CELL</a></h4>
+
+            <h4 class="nirf"><i class="fa-solid-subi"><img src="nirf.ico"></i><br><br><a href="" class="nirf-abbr"><abbr
+                        title="National Institutional Ranking Framework">NIRF 2023</abbr></a></h4>
+
+            <h4 class="mandatory-disclosure"><i class="fa-solid-subi"><img src="md.ico"></i><br><br><a href="">MANDATORY
+                    DISCLOSURE</a></h4>
+
+            <h4 class="learn-system"><i class="fa-solid-subi"><img src="Learning-Management-System.ico"></i><br><br><a
+                    href="">LEARNING MANAGEMENT SYSTEM</a></h4>
+
+            <h4 class="student-satisfy"><i class="fa-solid-subi"><img src="stud_satisfy_survey.ico"></i><br><br><a
+                    href="">STUDENT SATISFACTION SURVEY</a></h4>
+
+            <h4 class="policy"><i class="fa-solid-subi"><img src="policies_and_procedures_1200x627.ico"></i><br><br><a
+                    href="">POLICIES</a></h4>
+
+            <h4 class="pta"><i class="fa-solid-subi"><img src="Parent-teacher-meeting-2.ico"></i><br><br><a
+                    href="">PARENTS TEACHERS MEETING GALLERY</a></h4>
+
+            <h4 class="stipend"><i class="fa-solid-subi"><img src="stipend.ico"></i><br><br><a href="">STIPEND FOR
+                    ALUMINI</a></h4>
+
+            <h4 class="intranet"><i class="fa-solid-subi"><img src="intranet.ico"></i><br><br><a href="">INTRANET</a>
+            </h4>
+
+            <h4 class="mou"><i class="fa-solid-subi"><img src="mou.ico"></i><br><br><a href="">MEMORANDUM OF
+                    UNDERSTANDING</a></h4>
+
+        </div>
+    </div>
+</body>
+
+</html>
